@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+
+<body>
+    <script>
+        let otvet1 = prompt("Вы  пройдете тест?  1-да 2-нет 3-конечно 4-лан")
+        switch (otvet1) {
+            case "1":
+                alert(':) ');
+                break;
+
+            case "2":
+                alert('нет = да');
+                break;
+
+            case "3":
+                alert('ок');
+                break;
+
+            case "4":
+                alert('лан');
+                break;
+
+            default:
+                alert("Нет таких значений");
+                if (otvet1 == 5) {
+                    let net = prompt("А почему не съебал ? 1-шутка 2-ладно ")
+                    if (net == "1") {
+                        alert("Ну продолжай")
+                    } else {
+                        end
+                    }
+                }
+        }
+        let otvet2 = prompt("В каком году вышла первая серия смешариков? 1-2004  2-2003  3-2002  4-2005  5-2006")
+        switch (otvet2) {
+            case "1":
+                alert('Супер!');
+                break;
+
+            case "2":
+                alert('хах, нет');
+                break;
+
+            case "3":
+                alert('позер');
+                break;
+
+            case "4":
+                alert('не праильно к сожалению ');
+                break;
+
+            case "5":
+                alert(':(');
+                break;
+
+            default:
+                alert("ебалай, вводи что просят");
+                if (otvet2 == "4") {
+                    brat += 1
+                }
+        }
+        let otvet3 = prompt("Сколько основных персонажей в мультике? 1-6 2-7 3-8 4-9 5-10")
+        switch (otvet3) {
+            case "1":
+                alert('нет');
+                break;
+
+            case "2":
+                alert('лох');
+                break;
+
+            case "3":
+                alert('нет');
+                break;
+
+            case "4":
+                alert('ура победа');
+                brat += 1;
+                break;
+
+            case "5":
+                alert('печаль');
+                break;
+            default:
+                alert("Согласен, варианты для лохов");
+        }
+        let otvet4 = prompt("В какой серии появился Черный Ловелас? 1-Страшилка для Нюши 2-Новые зубы Кроша  3-Ежик в туманности  4-День рождения Нюши  5-Ляля")
+        switch (otvet4) {
+            case "1":
+                alert("Ура! ");
+                break;
+
+            case "2":
+                alert('ну нет');
+                break;
+
+            case "3":
+                alert('хуево');
+                break;
+
+            case "4":
+                alert('не-а');
+                break;
+
+            case "5":
+                alert('поплачь');
+                break;
+
+            default:
+                alert("ебалан, вводи что просят");
+        }
+        let otvet5 = prompt("Кто спас Пина во 2-м эпизоде Космическая одиссея 1-Биби  2-Железная няня 3-Ежик  4-Крош 5-Нюша")
+        switch (otvet5) {
+            case "1":
+                alert('Молодец');
+                break;
+
+            case "2":
+                alert('нет');
+                break;
+
+            case "3":
+                alert('позер');
+                break;
+
+            case "4":
+                alert('лох');
+                break;
+
+            case "5":
+                alert('ты мне не нравишься');
+                break;
+
+            default:
+                alert("В - Андрей лох");
+        }
+        let otvet6 = prompt("В какой серии прозвучала песня От винта? 1-Вестибулярный аппарат 2- ОРЗ  3-Полеты во сне и наяву  4- Марафонец  5-не знаю ")
+        switch (otvet6) {
+            case "1":
+                alert('нет');
+                break;
+
+            case "2":
+                alert('ну нет');
+                break;
